@@ -1,4 +1,4 @@
-(ns mranderson.dependency.tree
+(ns ^:no-doc mranderson.dependency.tree
   (:require [clojure.tools.namespace.dependency :as dep]))
 
 ;; inlined from leiningen source

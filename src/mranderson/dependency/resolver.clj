@@ -1,4 +1,4 @@
-(ns mranderson.dependency.resolver
+(ns ^:no-doc mranderson.dependency.resolver
   (:require [cemerick.pomegranate.aether :as aether]
             [mranderson.dependency.tree :as t]))
 

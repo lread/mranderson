@@ -1,4 +1,4 @@
-(ns mranderson.util
+(ns ^:no-doc mranderson.util
   (:require [clojure.java.io :as io]
             [clojure.string :as str]
             [me.raynes.fs :as fs]
