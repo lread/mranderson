@@ -1,4 +1,4 @@
-(ns leiningen.inline-deps
+(ns ^:no-doc leiningen.inline-deps
   (:require [clojure.edn :as edn]
             [me.raynes.fs :as fs]
             [mranderson.core :as c]
