@@ -12,7 +12,7 @@
                     ;; https://saker.build/blog/javac_source_target_parameters/index.html / https://archive.md/JH260
                     ["--release" "8"])
   :filespecs [{:type :bytes :path "mranderson/project.clj" :bytes ~(slurp "project.clj")}]
-  :dependencies [^:inline-dep [clj-commons/pomegranate "1.2.1"]
+  :dependencies [^:inline-dep [clj-commons/pomegranate "1.2.22"]
                  ^:inline-dep [org.clojure/tools.namespace "1.3.0"]
                  ^:inline-dep [clj-commons/fs "1.6.310"]
                  ^:inline-dep [rewrite-clj "1.1.45"]
